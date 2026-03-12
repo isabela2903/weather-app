@@ -1,0 +1,61 @@
+.weather-panel {
+    margin-top: 35px;
+    background-image: url(./images/bg-today-small.svg);
+    background-size: cover;
+    height: 286px;
+    border-radius: 25px;
+    padding: 40px 10px;
+}
+
+.location-header {
+    text-align: center;
+}
+
+.current-city {
+    font-size: 30px;
+}
+
+.current-date {
+    color: hsl(240, 6%, 70%);
+    font-size: 18px;
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+}
+
+.weather-icon {
+    width: 140px;
+}
+
+.current-temp {
+    font-size: 110px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+/*------------------------------------------*/
+.weather-metrics {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.metric-item {
+    background-color: hsl(243, 27%, 20%);
+    border: 1px solid hsl(243, 23%, 30%);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.metric-label {
+    color: hsl(240, 6%, 70%);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.metric-value {
+    font-size: 25px;
+}
