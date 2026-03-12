@@ -1,0 +1,36 @@
+.daily-forecast {
+  margin-top: 30px;
+}
+
+.daily-forecast .section-title {
+  font-size: 20px;
+}
+
+.daily-forecast-grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.forecast-day {
+  background-color: hsl(243, 27%, 20%);
+  border: 1px solid hsl(243, 23%, 30%);
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px 10px;
+}
+
+.day-icon {
+  width: 60px;
+  margin-block: 20px;
+}
+
+.temp-range {
+  display: flex;
+  justify-content: space-between;
+}
+
+.temp-low {
+  color: hsl(240, 6%, 70%);
+}
