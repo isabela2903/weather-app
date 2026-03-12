@@ -13,11 +13,7 @@ export const HourlyForecast = () => {
 
       <div className="hourly-item">
         <div className="hour-details">
-          <img
-            className="hour-icon"
-            src="./images/icon-overcast.webp"
-            alt="Overcast"
-          />
+          <span className="hour-icon overcast" />
           <p className="hour-time">3 PM</p>
         </div>
 
@@ -26,11 +22,7 @@ export const HourlyForecast = () => {
 
       <div className="hourly-item">
         <div className="hour-details">
-          <img
-            className="hour-icon"
-            src="./images/icon-partly-cloudy.webp"
-            alt="Partly Cloudy"
-          />
+          <span className="hour-icon partly-cloudy" />
           <p className="hour-time">4 PM</p>
         </div>
 
@@ -39,11 +31,7 @@ export const HourlyForecast = () => {
 
       <div className="hourly-item">
         <div className="hour-details">
-          <img
-            className="hour-icon"
-            src="./images/icon-sunny.webp"
-            alt="Sunny"
-          />
+          <span className="hour-icon sunny" />
           <p className="hour-time">5 PM</p>
         </div>
 
@@ -52,11 +40,7 @@ export const HourlyForecast = () => {
 
       <div className="hourly-item">
         <div className="hour-details">
-          <img
-            className="hour-icon"
-            src="./images/icon-overcast.webp"
-            alt="Overcast"
-          />
+          <span className="hour-icon overcast" />
           <p className="hour-time">6 PM</p>
         </div>
 
@@ -65,7 +49,7 @@ export const HourlyForecast = () => {
 
       <div className="hourly-item">
         <div className="hour-details">
-          <img className="hour-icon" src="./images/icon-snow.webp" alt="Snow" />
+          <span className="hour-icon snow" />
           <p className="hour-time">7 PM</p>
         </div>
 
@@ -74,7 +58,7 @@ export const HourlyForecast = () => {
 
       <div className="hourly-item">
         <div className="hour-details">
-          <img className="hour-icon" src="./images/icon-fog.webp" alt="Fog" />
+          <span className="hour-icon fog" />
           <p className="hour-time">8 PM</p>
         </div>
 
@@ -83,7 +67,7 @@ export const HourlyForecast = () => {
 
       <div className="hourly-item">
         <div className="hour-details">
-          <img className="hour-icon" src="./images/icon-snow.webp" alt="Snow" />
+          <span className="hour-icon snow" />
           <p className="hour-time">9 PM</p>
         </div>
 
@@ -92,11 +76,7 @@ export const HourlyForecast = () => {
 
       <div className="hourly-item">
         <div className="hour-details">
-          <img
-            className="hour-icon"
-            src="./images/icon-overcast.webp"
-            alt="Overcast"
-          />
+          <span className="hour-icon overcast" />
           <p className="hour-time">10 PM</p>
         </div>
 

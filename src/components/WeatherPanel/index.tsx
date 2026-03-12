@@ -9,11 +9,7 @@ export const WeatherPanel = () => {
           <p className="current-date">Tuesday, Aug 5, 2025</p>
 
           <div className="weather-info">
-            <img
-              className="weather-icon"
-              src="./images/icon-sunny.webp"
-              alt="Sunny"
-            />
+            <span className="weather-icon sunny"></span>
             <p className="current-temp">68°</p>
           </div>
         </div>

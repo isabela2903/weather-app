@@ -8,7 +8,7 @@ export const DailyForecast = () => {
       <div className="daily-forecast-grid">
         <div className="forecast-day">
           <p className="day-name">Tue</p>
-          <img className="day-icon" src="./images/icon-rain.webp" alt="Rain" />
+          <span className="day-icon rain" />
 
           <div className="temp-range">
             <p className="temp-high">68°</p>
@@ -18,11 +18,7 @@ export const DailyForecast = () => {
 
         <div className="forecast-day">
           <p className="day-name">Wed</p>
-          <img
-            className="day-icon"
-            src="./images/icon-drizzle.webp"
-            alt="Drizzle"
-          />
+          <span className="day-icon drizzle" />
 
           <div className="temp-range">
             <p className="temp-high">70°</p>
@@ -32,11 +28,7 @@ export const DailyForecast = () => {
 
         <div className="forecast-day">
           <p className="day-name">Thu</p>
-          <img
-            className="day-icon"
-            src="./images/icon-sunny.webp"
-            alt="Sunny"
-          />
+          <span className="day-icon sunny" />
 
           <div className="temp-range">
             <p className="temp-high">75°</p>
@@ -46,11 +38,7 @@ export const DailyForecast = () => {
 
         <div className="forecast-day">
           <p className="day-name">Fri</p>
-          <img
-            className="day-icon"
-            src="./images/icon-partly-cloudy.webp"
-            alt="Partly Cloudy"
-          />
+          <span className="day-icon partly-cloudy" />
 
           <div className="temp-range">
             <p className="temp-high">77°</p>
@@ -60,11 +48,7 @@ export const DailyForecast = () => {
 
         <div className="forecast-day">
           <p className="day-name">Sat</p>
-          <img
-            className="day-icon"
-            src="./images/icon-storm.webp"
-            alt="Storm"
-          />
+          <span className="day-icon storm" />
 
           <div className="temp-range">
             <p className="temp-high">70°</p>
@@ -74,7 +58,7 @@ export const DailyForecast = () => {
 
         <div className="forecast-day">
           <p className="day-name">Sun</p>
-          <img className="day-icon" src="./images/icon-snow.webp" alt="Snow" />
+          <span className="day-icon snow" />
 
           <div className="temp-range">
             <p className="temp-high">77°</p>
@@ -84,7 +68,7 @@ export const DailyForecast = () => {
 
         <div className="forecast-day">
           <p className="day-name">Mon</p>
-          <img className="day-icon" src="./images/icon-fog.webp" alt="Fog" />
+          <span className="day-icon fog" />
 
           <div className="temp-range">
             <p className="temp-high">75°</p>

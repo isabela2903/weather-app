@@ -12,3 +12,43 @@ body {
   padding: 15px;
   color: #fff;
 }
+
+.drizzle {
+  background: url(./images/icon-drizzle.webp) no-repeat center;
+  background-size: contain;
+}
+
+.fog {
+  background: url(./images/icon-fog.webp) no-repeat center;
+  background-size: contain;
+}
+
+.overcast {
+  background: url(./images/icon-overcast.webp) no-repeat center;
+  background-size: contain;
+}
+
+.partly-cloudy {
+  background: url(./images/icon-partly-cloudy.webp) no-repeat center;
+  background-size: contain;
+}
+
+.rain {
+  background: url(./images/icon-rain.webp) no-repeat center;
+  background-size: contain;
+}
+
+.snow {
+  background: url(./images/icon-snow.webp) no-repeat center;
+  background-size: contain;
+}
+
+.storm {
+  background: url(./images/icon-storm.webp) no-repeat center;
+  background-size: contain;
+}
+
+.sunny {
+  background: url(./images/icon-sunny.webp) no-repeat center;
+  background-size: contain;
+}
