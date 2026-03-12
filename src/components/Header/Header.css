@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-container {
+  width: 130px;
+}
+
+.units-toggle {
+  background-color: hsl(243, 27%, 20%);
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.header-title {
+  font-size: 55px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Bricolage Grotesque", sans-serif;
+  margin-block: 40px;
+}
+
+.search-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.search-input {
+  background-color: hsl(243, 27%, 20%);
+  border: none;
+  padding: 15px 50px;
+  border-radius: 8px;
+  position: relative;
+  font-size: 18px;
+}
+
+.search-input::placeholder {
+  color: hsl(250, 6%, 84%);
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px; 
+  top: 16px; 
+}
+
+.search-button {
+  background-color: hsl(233, 67%, 56%);
+  border: none;
+  color: #fff;
+  padding: 15px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
