@@ -1,3 +1,4 @@
+import { DailyForecast } from "./components/DailyForecast"
 import { Header } from "./components/Header"
 import { WeatherPanel } from "./components/WeatherPanel"
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <WeatherPanel />
+      <DailyForecast />
     </>
   )
 }
