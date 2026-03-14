@@ -3,6 +3,7 @@
 .header-top {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .logo-container {
@@ -69,12 +70,12 @@
 }
 
 .units-menu {
-  background-color: hsl(243, 23%, 24%);
+  background-color: hsl(243, 27%, 20%);
   border-radius: 8px;
   position: absolute;
   z-index: 1000;
   right: -100%;
-  top: 60px;
+  top: 50px;
   padding: 5px;
   display: flex;
   flex-direction: column;
@@ -124,12 +125,12 @@
 }
 
 .unit-option.active {
-  background-color: hsl(243, 23%, 30%);
+  background-color: hsl(243, 23%, 24%);
   background-image: url(./images/icon-checkmark.svg);
   background-repeat: no-repeat;
   background-position: right 10px center;
 }
 
 .units-toggle:checked ~ .units-menu {
-  right: 15px;
+  right: 0;
 }

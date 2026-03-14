@@ -5,10 +5,22 @@ export const HourlyForecast = () => {
     <div className="hourly-forecast">
       <div className="forecast-header">
         <h2 className="section-title">Hourly Forecast</h2>
-        <button className="date-selector">
+
+        <input type="checkbox" id="date-selector" className="date-selector" />
+        <label htmlFor="date-selector" className="date-selector-icon">
           <span>Tuesday</span>
           <img src="./images/icon-dropdown.svg" alt="Dropdown" />
-        </button>
+        </label>
+
+        <div className="date-menu">
+          <button className="date-option">Monday</button>
+          <button className="date-option active">Tuesday</button>
+          <button className="date-option">Wednesday</button>
+          <button className="date-option">Thursday</button>
+          <button className="date-option">Friday</button>
+          <button className="date-option">Saturday</button>
+          <button className="date-option">Sunday</button>
+        </div>
       </div>
 
       <div className="hourly-item">

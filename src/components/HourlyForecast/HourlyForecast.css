@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .forecast-header .section-title {
@@ -16,6 +17,10 @@
 }
 
 .date-selector {
+  display: none;
+}
+
+.date-selector-icon {
   background-color: hsl(243, 23%, 30%);
   border: none;
   color: #fff;
@@ -47,4 +52,41 @@
   width: 40px;
   height: 40px;
   margin-right: 5px;
+}
+
+.hour-temp {
+  font-size: 14px;
+}
+
+.date-menu {
+  background-color: hsl(243, 27%, 20%);
+  position: absolute;
+  z-index:1000;
+  display: flex;
+  flex-direction: column;
+  right: -100%;
+  top: 50px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid hsl(243, 23%, 30%);
+  transition: right 0.3s ease;
+}
+
+.date-option {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: left;
+  width: 150px;
+}
+
+.date-option.active {
+  background-color: hsl(243, 23%, 24%);
+}
+
+.date-selector:checked ~ .date-menu {
+  right: 0;
 }
