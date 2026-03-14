@@ -5,11 +5,6 @@ export const Header = () => {
     <header className="header-weather-app">
       <div className="header-top">
         <img className="logo-container" src="./images/logo.svg" alt="Logo" />
-        {/* <button className="units-toggle">
-          <img src="./images/icon-units.svg" alt="Units" />
-          <span>Units</span>
-          <img src="./images/icon-dropdown.svg" alt="Dropdown" />
-        </button> */}
         
         <input type="checkbox" id="units-toggle" className="units-toggle" />
         <label htmlFor="units-toggle" className="units-toggle-icon">
