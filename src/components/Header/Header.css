@@ -47,6 +47,7 @@
   border-radius: 8px;
   position: relative;
   font-size: 18px;
+  color: #fff;
 }
 
 .search-input::placeholder {
