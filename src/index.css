@@ -11,6 +11,7 @@ body {
   background-color: hsl(243, 96%, 9%);
   padding: 15px;
   color: #fff;
+  overflow-x: hidden;
 }
 
 .drizzle {

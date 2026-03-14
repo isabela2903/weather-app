@@ -10,15 +10,18 @@
 }
 
 .units-toggle {
-  background-color: hsl(243, 27%, 20%);
-  border: none;
-  padding: 8px 12px;
-  border-radius: 8px;
+  display: none;
+}
+
+.units-toggle-icon {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
+  background-color: hsl(243, 27%, 20%);
+  border-radius: 8px;
+  padding: 10px 15px;
   cursor: pointer;
-  color: #fff;
+  font-size: 14px;
 }
 
 .header-title {
@@ -63,4 +66,70 @@
   border-radius: 8px;
   cursor: pointer;
   font-size: 18px;
+}
+
+.units-menu {
+  background-color: hsl(243, 23%, 24%);
+  border-radius: 8px;
+  position: absolute;
+  z-index: 1000;
+  right: -100%;
+  top: 60px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid hsl(243, 23%, 30%);
+  transition: right 0.3s ease;
+}
+
+.units-switch {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  text-align: left;
+  width: 170px;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.unit-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.unit-group.middle {
+  border-top: 1px solid hsl(243, 23%, 30%);
+  padding-top: 10px;
+  border-bottom: 1px solid hsl(243, 23%, 30%);
+  padding-bottom: 10px;
+}
+
+.unit-label {
+  color: hsl(240, 6%, 70%);
+  font-size: 12px;
+}
+
+.unit-option {
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  width: 170px;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.unit-option.active {
+  background-color: hsl(243, 23%, 30%);
+  background-image: url(./images/icon-checkmark.svg);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.units-toggle:checked ~ .units-menu {
+  right: 15px;
 }
